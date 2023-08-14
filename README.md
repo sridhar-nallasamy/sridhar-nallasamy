@@ -1,5 +1,5 @@
 <div align="right">
-  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/app/assets/png/VGS.png" width="11%" alt="Logo" />
+  <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/png/VGS.png" width="11%" alt="Logo" />
 </div>
 
 ## Hi there <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" height="30px" width="30px" alt="Waving GIF">, &nbsp;<img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&color=%2302DF00&size=18&vCenter=true&width=280&height=26&lines=I'm+Sridhar+😊;I'm+a+Full+Stack+Developer+👨🏻‍💻" alt="Scrolling Text" />
@@ -23,7 +23,7 @@
 
 <hr />
 
-<img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/app/assets/png/Techie.png" width="45%" align="right" />
+<img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/png/Techie.png" width="45%" align="right" />
 
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" alt="" height="22px" width="22px" /> &nbsp; Tech Stack & Tools
 <br />
@@ -85,7 +85,7 @@
 
 <hr />
 
-### <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/app/assets/gif/handshake.gif" alt="handshake" width="10%" /> Connect with Me
+### <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/gif/handshake.gif" alt="handshake" width="10%" /> Connect with Me
 <br />
 <div>
   <a href="https://sridhar-nallasamy.web.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.web.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
@@ -96,6 +96,6 @@
   <a href="https://www.facebook.com/sri.luzifer"><img src="https://img.shields.io/badge/sri.luzifer-1778F2?style=flat&logo=Facebook&logoColor=white" alt="Facebook"></a>
 </div>
 <hr />
-<img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/app/assets/gif/Earth.gif" height="20px" width="20px" alt="world gif" align="right" />
+<img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/gif/Earth.gif" height="20px" width="20px" alt="world gif" align="right" />
 <img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&color=green" alt="view count" align="right" />
 <h6>Last Edited: 06-Aug-2023</h6>
