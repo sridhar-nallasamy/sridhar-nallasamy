@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import VgsLogo from '../assets/svg/VGS.svg';
+// import Image from 'next/image';
+// import VgsLogo from '../assets/svg/VGS.svg';
 
 export default function Home() {
   return (

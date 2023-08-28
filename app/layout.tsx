@@ -1,6 +1,7 @@
-import './globals.css';
 import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
+import SpaceBg from '@/components/spaceBg';
+import './globals.css';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -15,8 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className='dark'>
-      <body className={`${nunito.className} bg-[#282c34] text-white`}>
+    <html lang="en" className="dark">
+      <body
+        className={`${nunito.className} bg-[#1e2022] h-full w-full text-white overflow-hidden`}
+      >
+        <SpaceBg />
         {children}
       </body>
     </html>
