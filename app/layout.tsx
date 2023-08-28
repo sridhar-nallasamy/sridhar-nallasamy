@@ -7,7 +7,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Sridhar Nallasamy 😊',
-  description: 'Portfolio Website of Sridhar Nallasamy 😊',
+  description: 'Portfolio Website of Sridhar Nallasamy',
 };
 
 export default function RootLayout({

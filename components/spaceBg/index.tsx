@@ -19,10 +19,10 @@ function getBoxShadow(num: number): string {
 interface DotBoxProps {
   hw: number;
   dotsCount: number;
-  animationDelay: number;
+  className: string;
 }
 
-function DotBox({ hw, dotsCount, animationDelay, ...otherProps }: DotBoxProps) {
+function DotBox({ hw, dotsCount, className }: DotBoxProps) {
   const hwRem = `${hw / 16}rem`;
   return (
     <Box
@@ -42,8 +42,7 @@ function DotBox({ hw, dotsCount, animationDelay, ...otherProps }: DotBoxProps) {
           top: '125rem',
         },
       }}
-      {...otherProps}
-      className={`animate-[spaceDots_${animationDelay}s_linear_infinite]`}
+      className={className}
     />
   );
 }
@@ -51,9 +50,21 @@ function DotBox({ hw, dotsCount, animationDelay, ...otherProps }: DotBoxProps) {
 export default function SpaceBg() {
   return (
     <>
-      <DotBox hw={1} dotsCount={700} animationDelay={50} />
-      <DotBox hw={2} dotsCount={200} animationDelay={100} />
-      <DotBox hw={3} dotsCount={100} animationDelay={150} />
+      <DotBox
+        hw={1}
+        dotsCount={700}
+        className="animate-[spaceDots_50s_linear_infinite]"
+      />
+      <DotBox
+        hw={2}
+        dotsCount={200}
+        className="animate-[spaceDots_100s_linear_infinite]"
+      />
+      <DotBox
+        hw={3}
+        dotsCount={100}
+        className="animate-[spaceDots_150s_linear_infinite]"
+      />
     </>
   );
 }
