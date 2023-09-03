@@ -40,6 +40,7 @@ export default function Home() {
           <NextImage
             src={TechieImg}
             alt="TechieImg"
+            quality={100}
             className="h-32 w-fit object-contain pointer-events-none md:h-40 lg:h-56"
           />
         </div>
