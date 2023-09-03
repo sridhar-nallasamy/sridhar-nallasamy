@@ -8,11 +8,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       keyframes: {
         spaceDots: {
           '0%': { transform: 'translateY(0)', opacity: 0 },
@@ -20,6 +15,11 @@ module.exports = {
           '100%': { transform: 'translateY(-2000px)', opacity: 1 },
         },
       },
+      colors: {
+        'black-transparent': '#000000b9',
+        'space-dark-blue': '#1e2022',
+      },
+      boxShadow: { 'mine-2-10': '0 2px 10px #000' },
     },
   },
   plugins: [],

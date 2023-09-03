@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
 import SpaceBg from '@/components/spaceBg';
+import Navbar from '@/components/navbar';
 import './globals.css';
 
 const nunito = Nunito({ subsets: ['latin'] });
@@ -8,6 +9,10 @@ const nunito = Nunito({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Sridhar Nallasamy 😊',
   description: 'Portfolio Website of Sridhar Nallasamy',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1.0,
+  },
 };
 
 export default function RootLayout({
@@ -18,9 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${nunito.className} bg-[#1e2022] h-full w-full text-white overflow-hidden`}
+        className={`${nunito.className} bg-space-dark-blue text-white h-screen`}
       >
         <SpaceBg />
+        <Navbar />
         {children}
       </body>
     </html>
