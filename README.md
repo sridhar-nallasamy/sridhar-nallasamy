@@ -7,6 +7,7 @@
 <h5 align="center">☺️ I'm Happy to Welcome You to My GitHub Profile‼️</h5>
 
 ### 🙋🏻‍♂️ About Me
+
 <div>
   <img src="https://img.shields.io/badge/🎂 D.O.B-18--Jun--1998-success" alt="D.O.B" />
   <img src="https://img.shields.io/badge/🎓 B.Tech-Information Technology-blueviolet" alt="Degree" />
@@ -26,6 +27,7 @@
 <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/png/Techie.png" width="45%" align="right" />
 
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" alt="" height="22px" width="22px" /> &nbsp; Tech Stack & Tools
+
 <br />
 
 <div>
@@ -66,6 +68,7 @@
 <hr />
 
 ### ➡️ GitHub Analytics
+
 <br />
 
 <div align="center">
@@ -86,6 +89,7 @@
 <hr />
 
 ### <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/gif/handshake.gif" alt="handshake" width="10%" /> Connect with Me
+
 <br />
 <div>
   <a href="https://sridhar-nallasamy.web.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.web.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
