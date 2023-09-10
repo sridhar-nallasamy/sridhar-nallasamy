@@ -32,19 +32,22 @@ export default function MobileNav(props: MobileNavProps) {
         />
       )}
       {isShowMobileNav && (
-        <div className="h-full w-full  absolute top-0 left-0 align-bottom z-[2]">
+        <div className="h-full w-full absolute top-0 left-0 align-bottom z-[2]">
           <div className="h-[8%] bg-transparent" onClick={closeHandler} />
-          <div className="h-[92%] bg-blue-950">
+          <div className="h-[92%] flex flex-col bg-[#121314]">
             {navLists.map(({ name, link }) => (
               <Link
                 key={link}
                 href={link}
                 onClick={closeHandler}
-                className="h-20 border-b-[1px] border-b-blue-700 flex items-center justify-center"
+                className="h-20 border-b-[1px] border-b-[#001b36] flex items-center justify-center"
               >
                 <h3>{name}</h3>
               </Link>
             ))}
+            <h3 className="mt-auto mb-4 text-center">
+              <span role="img">❗</span>Sridhar <span role="img">🙋🏼‍♂️</span>
+            </h3>
           </div>
         </div>
       )}

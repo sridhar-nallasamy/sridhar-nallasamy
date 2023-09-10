@@ -23,9 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${nunito.className} bg-space-dark-blue text-white h-screen`}
-      >
+      <body className={`${nunito.className} bg-space-dark text-white h-screen`}>
         <SpaceBg />
         <Navbar />
         {children}
