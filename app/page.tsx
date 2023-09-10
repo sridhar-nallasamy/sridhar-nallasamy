@@ -1,14 +1,15 @@
 import NextImage from 'next/image';
+import Link from 'next/link';
 import SpaceBox from '@/components/spaceBox';
 import TechieImg from '@/assets/svg/Techie.svg';
 
-export default function Home() {
-  type pagesType = { key: number; name: string };
+type pagesType = { name: string; link: string };
 
+export default function Home() {
   const pages: pagesType[] = [
-    { key: 1, name: 'About' },
-    { key: 2, name: 'Skills' },
-    { key: 3, name: 'Contact' },
+    { name: 'About', link: '/about' },
+    { name: 'Skills', link: '/skills' },
+    { name: 'Contact', link: '/contact' },
   ];
 
   return (
@@ -49,13 +50,16 @@ export default function Home() {
         id="home-secondary"
         className="grid h-1/3 gap-4 mt-4 lg:grid-cols-3 lg:h-1/5 lg:gap-6 lg:mt-6"
       >
-        {pages.map(({ key, name }) => (
-          <SpaceBox
-            key={key}
-            className="group duration-150 ease-in cursor-pointer hover:bg-gradient-to-br hover:from-[#55ff0040] hover:to-[#ff000040]"
+        {pages.map(({ name, link }) => (
+          <Link
+            href={link}
+            key={link}
+            className="group duration-150 ease-in cursor-pointer"
           >
-            <h3 className="duration-150 lg:group-hover:text-lg">{name}</h3>
-          </SpaceBox>
+            <SpaceBox className="h-full w-full group-hover:bg-gradient-to-br hover:from-[#55ff0040] hover:to-[#ff000040]">
+              <h3 className="duration-150 lg:group-hover:text-lg">{name}</h3>
+            </SpaceBox>
+          </Link>
         ))}
       </div>
     </div>
