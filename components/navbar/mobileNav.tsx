@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Bars3Icon, XMarkIcon } from '@/assets/svg/heroIcons';
 import { navListType } from '.';
@@ -17,6 +17,15 @@ export default function MobileNav(props: MobileNavProps) {
   const closeHandler = () => {
     setIsShowMobileNav(false);
   };
+
+  useEffect(() => {
+    if (isShowMobileNav) {
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = 'scroll';
+      };
+    }
+  }, [isShowMobileNav]);
 
   return (
     <div>
