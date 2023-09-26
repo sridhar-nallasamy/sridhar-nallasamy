@@ -17,7 +17,7 @@ module.exports = {
       },
       colors: {
         'black-transparent': '#000000b9',
-        'space-dark-blue': '#1e2022',
+        'space-dark': '#1e2022',
       },
       boxShadow: { 'mine-2-10': '0 2px 10px #000' },
     },

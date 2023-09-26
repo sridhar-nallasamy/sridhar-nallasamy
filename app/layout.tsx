@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import SpaceBg from '@/components/spaceBg';
 import Navbar from '@/components/navbar';
 import './globals.css';
@@ -22,12 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${nunito.className} bg-space-dark-blue text-white h-screen`}
-      >
+      <body className={`${nunito.className} bg-space-dark text-white h-screen`}>
         <SpaceBg />
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
