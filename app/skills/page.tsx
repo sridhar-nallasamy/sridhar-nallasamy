@@ -19,15 +19,14 @@ import {
   VercelIcon,
 } from '@/assets/svg/icons8';
 import BienesmartLogo from '@/assets/svg/bienesmart.svg';
-import Link from 'next/link';
-import NextImg from 'next/image';
 import SpaceBox from '@/components/spaceBox';
-import { TechListType } from './type';
+import { BuildsListType, TechListType } from './type';
 import StackBox from './stackBox';
 import VisualBox from './visualBox';
+import BuildsBox from './buildsBox';
 
 export default function Skills() {
-  const FrontEndList: TechListType[] = [
+  const frontEndList: TechListType[] = [
     { title: 'HTML', icon: HtmlIcon },
     { title: 'CSS', icon: CssIcon },
     { title: 'JavaScript', icon: JsIcon },
@@ -37,14 +36,14 @@ export default function Skills() {
     { title: 'Tailwind CSS', icon: TailwindIcon },
   ];
 
-  const BackEndList: TechListType[] = [
+  const backEndList: TechListType[] = [
     { title: 'Java', icon: JavaIcon },
     { title: 'Spring Boot', icon: SpringIcon },
     { title: 'NodeJs', icon: NodeIcon },
     { title: 'ExpressJs', icon: ExpressIcon },
   ];
 
-  const ToolsList: TechListType[] = [
+  const toolsList: TechListType[] = [
     { title: 'Git', icon: GitIcon },
     { title: 'GitHub', icon: GithubIcon },
     { title: 'Firebase', icon: FirebaseIcon },
@@ -52,9 +51,17 @@ export default function Skills() {
     { title: 'AWS', icon: AwsIcon },
   ];
 
-  const PassionList: TechListType[] = [
+  const passionList: TechListType[] = [
     { title: 'Photoshop', icon: PhotoshopIcon },
     { title: 'Illustrator', icon: IllustratorIcon },
+  ];
+
+  const buildsList: BuildsListType[] = [
+    {
+      title: 'BienesMart',
+      image: BienesmartLogo,
+      link: 'https://bienes-mart.web.app',
+    },
   ];
 
   return (
@@ -79,9 +86,9 @@ export default function Skills() {
           &nbsp;
           <span role="img">😊</span>
         </h3>
-        <StackBox name="Front-End" techList={FrontEndList} />
-        <StackBox name="Back-End" techList={BackEndList} />
-        <StackBox name="Tool / Infra" techList={ToolsList} />
+        <StackBox name="Front-End" techList={frontEndList} />
+        <StackBox name="Back-End" techList={backEndList} />
+        <StackBox name="Tool / Infra" techList={toolsList} />
       </SpaceBox>
       <SpaceBox className="flex-col mt-4 w-full p-4 lg:p-6 lg:mt-6">
         <h3>
@@ -89,35 +96,10 @@ export default function Skills() {
           graphics which cheered me up to explore & practice these tools & try
           something new,
         </h3>
-        <VisualBox passionList={PassionList} />
+        <VisualBox passionList={passionList} />
       </SpaceBox>
       <SpaceBox className="flex-col my-4 lg:my-6 w-full h-fit md:w-1/5">
-        <div className="bg-slate-700 rounded-t-lg w-full py-1 md:py-2">
-          <h3 className="text-white text-center">My-Build</h3>
-        </div>
-        <div className="my-4">
-          <Link
-            href="https://bienes-mart.web.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group cursor-pointer"
-            title="BienesMart"
-          >
-            <div className="h-fit w-fit bg-white overflow-hidden rounded-md relative">
-              <NextImg
-                src={BienesmartLogo}
-                alt="BienesmartLogo"
-                quality={100}
-                className="h-28 w-28 duration-300 rounded-md group-hover:rotate-45"
-              />
-              <div className="absolute flex items-center justify-center duration-300 top-0 w-full h-full bg-[rgba(0,0,0,0.5)] rounded-md translate-y-28 group-hover:translate-y-0">
-                <h3 className="text-sm">
-                  BienesMart&nbsp;<span role="img">🔗</span>
-                </h3>
-              </div>
-            </div>
-          </Link>
-        </div>
+        <BuildsBox buildsList={buildsList} />
       </SpaceBox>
     </div>
   );
