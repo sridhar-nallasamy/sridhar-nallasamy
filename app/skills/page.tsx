@@ -20,10 +20,10 @@ import {
 } from '@/assets/svg/icons8';
 import BienesmartLogo from '@/assets/svg/bienesmart.svg';
 import SpaceBox from '@/components/spaceBox';
-import { BuildsListType, TechListType } from './type';
-import StackBox from './stackBox';
-import VisualBox from './visualBox';
-import BuildsBox from './buildsBox';
+import VisualBox from '@/components/visualBox';
+import BuildsBox from '@/components/buildsBox';
+import StackBox from '@/components/stackBox';
+import { BuildsListType, TechListType } from '@/types';
 
 export default function Skills() {
   const frontEndList: TechListType[] = [

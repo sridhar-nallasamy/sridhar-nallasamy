@@ -1,6 +1,10 @@
 import Tooltip from '@mui/material/Tooltip';
 import Zoom from '@mui/material/Zoom';
-import { CustomToolTipProps } from './type';
+
+type CustomToolTipProps = {
+  title: string;
+  children: React.ReactElement;
+};
 
 export default function CustomToolTip({ title, children }: CustomToolTipProps) {
   return (
