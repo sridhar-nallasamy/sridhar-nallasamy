@@ -21,6 +21,7 @@ export default function Navbar() {
           src={VgsLogo}
           alt="Vgs Logo"
           quality={100}
+          priority
           className="h-[4.5rem] w-[4.5rem] md:[5.3rem] md:w-[5.3rem] lg:h-24 lg:w-24 object-contain cursor-pointer pointer-events-none"
         />
       </Link>

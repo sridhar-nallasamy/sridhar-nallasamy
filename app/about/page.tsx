@@ -113,7 +113,7 @@ export default function About() {
           ))}
         </ul>
       </SpaceBox>
-      <SpaceBox className="mx-auto mt-4 p-4 lg:w-fit lg:mt-5">
+      <SpaceBox className="mx-auto mt-4 p-4 lg:w-fit lg:mt-6">
         <h3 className="mr-12">Here&#39;s my resume</h3>
         <Link
           href="https://drive.google.com/drive/folders/17DzuZ44OM9F5yqqA-DdXzIQ3GM3dd5Ha?usp=sharing"
