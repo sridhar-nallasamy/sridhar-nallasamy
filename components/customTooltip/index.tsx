@@ -13,7 +13,7 @@ export default function CustomToolTip({ title, children }: CustomToolTipProps) {
       arrow
       TransitionComponent={Zoom}
       title={title}
-      enterTouchDelay={0}
+      // enterTouchDelay={0}
       componentsProps={{
         tooltip: {
           sx: {

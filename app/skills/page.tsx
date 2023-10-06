@@ -65,7 +65,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="flex flex-wrap items-center justify-evenly m-4">
+    <div className="flex flex-col items-center p-4">
       <SpaceBox className="p-4 flex-col w-full lg:p-6">
         <h3>
           I always believes that &quot;
@@ -98,7 +98,7 @@ export default function Skills() {
         </h3>
         <VisualBox passionList={passionList} />
       </SpaceBox>
-      <SpaceBox className="flex-col my-4 lg:my-6 w-full h-fit md:w-1/5">
+      <SpaceBox className="flex-col mt-4 lg:mt-6 w-full h-fit md:w-1/5">
         <BuildsBox buildsList={buildsList} />
       </SpaceBox>
     </div>
