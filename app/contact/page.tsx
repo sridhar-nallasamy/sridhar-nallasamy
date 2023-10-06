@@ -42,7 +42,7 @@ export default function Contact() {
   return (
     <div className="p-4 lg:p-6">
       <SpaceBox className="flex-col">
-        <h3 className="mt-4 lg:mt-6">Get in Touch</h3>
+        <h3 className="mt-4 lg:mt-6">Get in Touch.</h3>
         <div className="flex items-center justify-center mb-2 lg:mb-0">
           {contactsList.map(({ icon, title, href }, idx) => (
             <ContactBox icon={icon} title={title} href={href} key={idx} />
