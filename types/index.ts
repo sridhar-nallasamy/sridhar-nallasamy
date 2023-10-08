@@ -1,6 +1,24 @@
 import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 import { FC, ReactElement, ReactNode, SVGAttributes } from 'react';
 
+export type TimelineProps = {
+  emoji: string;
+  year: string;
+  where: string;
+  descriptions: string[];
+};
+
+export type HobbiesListProps = {
+  prefixEmoji: string;
+  descriiption: string;
+  suffixEmoji: string;
+};
+
+export type NextLinkProps = {
+  link: string;
+  coverText: string;
+};
+
 export type TechListType = {
   title: string;
   icon: FC<SVGAttributes<SVGElement>>;

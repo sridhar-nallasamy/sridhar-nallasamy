@@ -4,57 +4,20 @@ import {
   DocumentTextIcon,
 } from '@/assets/svg/heroIcons';
 import SpaceBox from '@/components/spaceBox';
-
-type TimelineProps = {
-  emoji: string;
-  year: string;
-  where: string;
-  descriptions: string[];
-};
-
-type HobbiesListProps = {
-  prefixEmoji: string;
-  descriiption: string;
-  suffixEmoji: string;
-};
-
-type NextLinkProps = {
-  link: string;
-  coverText: string;
-};
-
-function TimelineList(props: TimelineProps) {
-  const { emoji, year, where, descriptions } = props;
-
-  return (
-    <li className="relative border-l-[1.5px] border-green-600 pl-6 pb-6 last:border-0 last:pb-0 before:absolute before:top-0 before:left-[-10px] before:w-4 before:h-4 before:bg-green-100 before:rounded-[50%] before:border-[1px] before:border-green-600 before:shadow-[2px_1px_0_rgb(22,163,74)] before:last:animate-spin">
-      <h3 className="mb-1 text-base text-green-100">
-        <span role="img" className="mr-2">
-          {emoji}
-        </span>
-        {year}
-      </h3>
-      <h4 className="text-sm">{where}</h4>
-      {descriptions.map((description, idx) => (
-        <h5 key={idx} className="text-xs mt-1 ml-6 first-of-type:mt-2">
-          <span role="img" className="mr-3 text-green-100">
-            •
-          </span>
-          {description}
-        </h5>
-      ))}
-    </li>
-  );
-}
+import { HobbiesListProps, NextLinkProps, TimelineProps } from '@/types';
+import TimelineList from '@/components/timelineList';
 
 export default function About() {
-  const timelineList: TimelineProps[] = [
+  const educationList: TimelineProps[] = [
     {
       emoji: '🎓',
       year: '2015 - 2019',
       where: 'K S Rangasamy College of Technology, Tiruchengode',
       descriptions: ['BTech - Information Technology'],
     },
+  ];
+
+  const workList: TimelineProps[] = [
     {
       emoji: '💼',
       year: '2019 - 2022',
@@ -106,13 +69,22 @@ export default function About() {
 
   return (
     <div className="p-4 lg:p-8">
-      <SpaceBox className="p-5 flex-col">
-        <ul className="relative">
-          {timelineList.map(({ emoji, year, where, descriptions }, idx) => (
-            <TimelineList key={idx} {...{ emoji, year, where, descriptions }} />
-          ))}
-        </ul>
-      </SpaceBox>
+      <div className="flex flex-col lg:flex-row justify-evenly">
+        <SpaceBox className="p-5 flex-col lg:justify-start lg:w-[45%]">
+          <ul className="relative">
+            {educationList.map((educationListProps, idx) => (
+              <TimelineList key={idx} {...educationListProps} />
+            ))}
+          </ul>
+        </SpaceBox>
+        <SpaceBox className="p-5 flex-col mt-4 lg:mt-0 lg:w-[45%]">
+          <ul className="relative">
+            {workList.map((worklistProps, idx) => (
+              <TimelineList key={idx} {...worklistProps} />
+            ))}
+          </ul>
+        </SpaceBox>
+      </div>
       <SpaceBox className="mx-auto mt-4 p-4 lg:w-fit lg:mt-6">
         <h3 className="mr-12">Here&#39;s my resume</h3>
         <Link
