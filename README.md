@@ -92,7 +92,7 @@
 
 <br />
 <div>
-  <a href="https://sridhar-nallasamy.web.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.web.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
+  <a href="https://sridhar-nallasamy.vercel.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.web.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
   <a href="https://www.linkedin.com/in/sridhar-nallasamy-781564160/"><img src="https://img.shields.io/badge/Sridhar Nallasamy-0077B5?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:nsridharbtech@gmail.com"><img src="https://img.shields.io/badge/nsridharbtech@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" alt="Gmail"></a>
   <a href="https://www.instagram.com/sridhar.n3/"><img src="https://img.shields.io/badge/sridhar.n3-DD2A7B?style=flat&logo=Instagram&logoColor=white" alt="Instagram"></a>
@@ -102,4 +102,4 @@
 <hr />
 <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/gif/Earth.gif" height="20px" width="20px" alt="world gif" align="right" />
 <img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&color=green" alt="view count" align="right" />
-<h6>Last Edited: 06-Aug-2023</h6>
+<h6>Last Edited: 08-Oct-2023</h6>
