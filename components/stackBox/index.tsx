@@ -1,5 +1,5 @@
-import CustomToolTip from './customTooltip';
-import { StackBoxProps, TechBoxProps } from './type';
+import { StackBoxProps, TechBoxProps } from '@/types';
+import CustomToolTip from '../customTooltip';
 
 function TechBox({ children }: TechBoxProps) {
   return (

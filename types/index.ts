@@ -27,3 +27,9 @@ export type BuildsListType = {
 };
 
 export type BuildsBoxProps = { buildsList: BuildsListType[] };
+
+export type ContactIconProps = {
+  icon: string | StaticImport;
+  title: string;
+  href: string;
+};

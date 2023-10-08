@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import NextImg from 'next/image';
-import { BuildsBoxProps } from './type';
+import { BuildsBoxProps } from '@/types';
 
 export default function BuildsBox({ buildsList }: BuildsBoxProps) {
   return (

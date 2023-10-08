@@ -1,6 +1,6 @@
 import CircularProgress from '@mui/material/CircularProgress';
-import { VisualBoxProps } from './type';
-import CustomToolTip from './customTooltip';
+import CustomToolTip from '@/components/customTooltip';
+import { VisualBoxProps } from '@/types';
 
 export default function VisualBox({ passionList }: VisualBoxProps) {
   return (
