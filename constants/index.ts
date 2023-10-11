@@ -5,7 +5,7 @@ const pageLinks: PageLinkProps[] = [
   {
     title: 'About',
     link: '/about',
-    coverText: 'Wanna see my education & work timeline along with fun-facts?',
+    coverText: 'Wanna look at my education & work timeline?',
   },
   {
     title: 'Skills',
