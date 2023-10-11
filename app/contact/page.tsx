@@ -9,6 +9,8 @@ import { ContactIconProps } from '@/types';
 import ContactBox from '@/components/contactBox';
 import NextImg from 'next/image';
 import ThanksImg from '@/assets/png/thanks.png';
+import PageLinksBox from '@/components/pageLinksBox';
+import { getPageLinks } from '@/utils/helpers';
 
 export default function Contact() {
   const contactsList: ContactIconProps[] = [
@@ -52,6 +54,7 @@ export default function Contact() {
       <div className="flex justify-center">
         <NextImg src={ThanksImg} alt="ThanksImg" className="w-60 md:w-64" />
       </div>
+      <PageLinksBox pageLinks={getPageLinks('/contact')} />
     </div>
   );
 }

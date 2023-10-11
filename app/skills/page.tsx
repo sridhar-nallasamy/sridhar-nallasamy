@@ -24,6 +24,8 @@ import VisualBox from '@/components/visualBox';
 import BuildsBox from '@/components/buildsBox';
 import StackBox from '@/components/stackBox';
 import { BuildsListType, TechListType } from '@/types';
+import PageLinksBox from '@/components/pageLinksBox';
+import { getPageLinks } from '@/utils/helpers';
 
 export default function Skills() {
   const frontEndList: TechListType[] = [
@@ -101,6 +103,9 @@ export default function Skills() {
       <SpaceBox className="flex-col mt-4 lg:mt-6 w-full h-fit md:w-1/5">
         <BuildsBox buildsList={buildsList} />
       </SpaceBox>
+      <div className="w-full">
+        <PageLinksBox pageLinks={getPageLinks('/skills')} />
+      </div>
     </div>
   );
 }

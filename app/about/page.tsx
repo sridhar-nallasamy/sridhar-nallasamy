@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import {
-  ChevronDoubleRightIcon,
-  DocumentTextIcon,
-} from '@/assets/svg/heroIcons';
+import { DocumentTextIcon } from '@/assets/svg/heroIcons';
 import SpaceBox from '@/components/spaceBox';
-import { HobbiesListProps, NextLinkProps, TimelineProps } from '@/types';
+import { HobbiesListProps, TimelineProps } from '@/types';
 import TimelineList from '@/components/timelineList';
+import { getPageLinks } from '@/utils/helpers';
+import PageLinksBox from '@/components/pageLinksBox';
 
 export default function About() {
   const educationList: TimelineProps[] = [
@@ -56,17 +55,6 @@ export default function About() {
     },
   ];
 
-  const nextLinks: NextLinkProps[] = [
-    {
-      link: '/skills',
-      coverText: 'Wanna checkout my area of expertise & works?',
-    },
-    {
-      link: '/contact',
-      coverText: 'Wanna reach out to me?',
-    },
-  ];
-
   return (
     <div className="p-4 lg:p-8">
       <div className="flex flex-col lg:flex-row justify-evenly">
@@ -110,20 +98,7 @@ export default function About() {
           </h3>
         ))}
       </SpaceBox>
-      <div className="flex flex-col items-center justify-evenly mt-4 lg:flex-row lg:mt-6">
-        {nextLinks.map(({ link, coverText }, idx) => (
-          <Link
-            key={idx}
-            href={link}
-            className="w-full last:mt-4 last:lg:mt-0 lg:w-1/3"
-          >
-            <SpaceBox className="p-4 lg:p-6">
-              <h3 className="w-3/4 text-center">{coverText}</h3>
-              <ChevronDoubleRightIcon className="h-5 w-1/4 text-red-100" />
-            </SpaceBox>
-          </Link>
-        ))}
-      </div>
+      <PageLinksBox pageLinks={getPageLinks('/about')} />
     </div>
   );
 }

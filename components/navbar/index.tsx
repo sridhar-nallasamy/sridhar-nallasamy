@@ -1,19 +1,11 @@
 import Link from 'next/link';
 import NextImg from 'next/image';
 import VgsLogo from '@/assets/png/VGS.png';
+import { pageLinks } from '@/constants';
 import MobileNav from './mobileNav';
 import DesktopNav from './desktopNav';
 
-export type navListType = { name: string; link: string }[];
-
 export default function Navbar() {
-  const navLists: navListType = [
-    { name: 'Home', link: '/' },
-    { name: 'About', link: '/about' },
-    { name: 'Skills', link: '/skills' },
-    { name: "Let's talk", link: 'contact' },
-  ];
-
   return (
     <nav className="flex items-center justify-between lg:justify-center px-6 lg:flex-col">
       <Link href="/">
@@ -26,10 +18,10 @@ export default function Navbar() {
         />
       </Link>
       <div id="desktop-nav" className="hidden lg:block lg:w-2/3 lg:mt-1">
-        <DesktopNav navLists={navLists} />
+        <DesktopNav navList={pageLinks} />
       </div>
       <div id="mobile-nav" className="lg:hidden">
-        <MobileNav navLists={navLists} />
+        <MobileNav navList={pageLinks} />
       </div>
     </nav>
   );
