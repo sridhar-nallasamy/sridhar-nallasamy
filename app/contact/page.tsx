@@ -52,7 +52,13 @@ export default function Contact() {
         </div>
       </SpaceBox>
       <div className="flex justify-center">
-        <NextImg src={ThanksImg} alt="ThanksImg" className="w-60 md:w-64" />
+        <NextImg
+          quality={100}
+          src={ThanksImg}
+          alt="ThanksImg"
+          className="w-60 md:w-64"
+          priority={false}
+        />
       </div>
       <PageLinksBox pageLinks={getPageLinks('/contact')} />
     </div>
