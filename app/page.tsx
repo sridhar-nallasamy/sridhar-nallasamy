@@ -2,15 +2,10 @@ import NextImage from 'next/image';
 import Link from 'next/link';
 import SpaceBox from '@/components/spaceBox';
 import TechieImg from '@/assets/svg/Techie.svg';
-
-type pagesType = { name: string; link: string };
+import { getPageLinks } from '@/utils/helpers';
 
 export default function Home() {
-  const pages: pagesType[] = [
-    { name: 'About', link: '/about' },
-    { name: 'Skills', link: '/skills' },
-    { name: 'Contact', link: '/contact' },
-  ];
+  const pageLinks = getPageLinks('/');
 
   return (
     <div className="p-4 h-5/6 lg:p-8">
@@ -50,14 +45,14 @@ export default function Home() {
         id="home-secondary"
         className="grid h-1/3 gap-4 mt-4 lg:grid-cols-3 lg:h-1/5 lg:gap-6 lg:mt-6"
       >
-        {pages.map(({ name, link }) => (
+        {pageLinks.map(({ title, link }) => (
           <Link
             href={link}
             key={link}
             className="group duration-150 ease-in cursor-pointer"
           >
             <SpaceBox className="h-full w-full group-hover:bg-gradient-to-br hover:from-[#55ff0040] hover:to-[#ff000040]">
-              <h3 className="duration-150 lg:group-hover:text-lg">{name}</h3>
+              <h3 className="duration-150 lg:group-hover:text-lg">{title}</h3>
             </SpaceBox>
           </Link>
         ))}

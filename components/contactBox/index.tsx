@@ -12,7 +12,12 @@ export default function ContactBox({ icon, title, href }: ContactIconProps) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <NextImg src={icon} alt={title} className="h-10 w-10 md:h-12 md:w-12" />
+        <NextImg
+          quality={100}
+          src={icon}
+          alt={title}
+          className="h-10 w-10 md:h-12 md:w-12"
+        />
       </Link>
     </CustomToolTip>
   );

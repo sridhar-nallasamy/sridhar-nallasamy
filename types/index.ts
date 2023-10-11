@@ -14,7 +14,8 @@ export type HobbiesListProps = {
   suffixEmoji: string;
 };
 
-export type NextLinkProps = {
+export type PageLinkProps = {
+  title: string;
   link: string;
   coverText: string;
 };
@@ -51,3 +52,7 @@ export type ContactIconProps = {
   title: string;
   href: string;
 };
+
+export type PageLinksBoxProps = { pageLinks: PageLinkProps[] };
+
+export type NavListProps = { navList: PageLinkProps[] };

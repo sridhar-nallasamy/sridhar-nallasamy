@@ -92,7 +92,7 @@
 
 <br />
 <div>
-  <a href="https://sridhar-nallasamy.vercel.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.web.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
+  <a href="https://sridhar-nallasamy.vercel.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.vercel.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
   <a href="https://www.linkedin.com/in/sridhar-nallasamy-781564160/"><img src="https://img.shields.io/badge/Sridhar Nallasamy-0077B5?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:nsridharbtech@gmail.com"><img src="https://img.shields.io/badge/nsridharbtech@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" alt="Gmail"></a>
   <a href="https://www.instagram.com/sridhar.n3/"><img src="https://img.shields.io/badge/sridhar.n3-DD2A7B?style=flat&logo=Instagram&logoColor=white" alt="Instagram"></a>
