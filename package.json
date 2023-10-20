@@ -2,7 +2,7 @@
   "name": "sridhar-nallasamy",
   "version": "0.1.0",
   "private": true,
-  "author": "Sridhar Nallasamy <nsridharbtech@gmail.com> (https://sridhar-nallasamy.web.app/)",
+  "author": "Sridhar Nallasamy <nsridharbtech@gmail.com> (https://sridhar-nallasamy.vercel.app/)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
