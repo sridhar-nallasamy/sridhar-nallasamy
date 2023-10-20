@@ -89,7 +89,6 @@
 <hr />
 
 ### ✮ Holopin Badges
-<br />
 
 [![An image of @sridharnallasamy's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sridharnallasamy)](https://holopin.io/@sridharnallasamy)
 
