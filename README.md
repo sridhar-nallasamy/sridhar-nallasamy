@@ -88,6 +88,13 @@
 
 <hr />
 
+### ✮ Holopin Badges
+<br />
+
+[![An image of @sridharnallasamy's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sridharnallasamy)](https://holopin.io/@sridharnallasamy)
+
+<hr/>
+
 ### <img src="https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/gif/handshake.gif" alt="handshake" width="10%" /> Connect with Me
 
 <br />
