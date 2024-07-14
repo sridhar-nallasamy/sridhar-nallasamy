@@ -1,6 +1,6 @@
-import { type SvgIconProps } from '@/types';
+import { type SvgIconFc } from '@/types';
 
-const JavaIcon: SvgIconProps = (props) => (
+const JavaIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -40,7 +40,7 @@ const JavaIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const SpringIcon: SvgIconProps = (props) => (
+const SpringIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -58,7 +58,7 @@ const SpringIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const HtmlIcon: SvgIconProps = (props) => (
+const HtmlIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -78,7 +78,7 @@ const HtmlIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const CssIcon: SvgIconProps = (props) => (
+const CssIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -98,7 +98,7 @@ const CssIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const JsIcon: SvgIconProps = (props) => (
+const JsIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -113,7 +113,7 @@ const JsIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const ReactIcon: SvgIconProps = (props) => (
+const ReactIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 80 80"
@@ -141,7 +141,7 @@ const ReactIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const ReduxIcon: SvgIconProps = (props) => (
+const ReduxIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -163,7 +163,7 @@ const ReduxIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const NextIcon: SvgIconProps = (props) => (
+const NextIcon: SvgIconFc = (props) => (
   <svg viewBox="0 0 394 79" aria-hidden {...props}>
     <path
       d="M261.919 0.0330722H330.547V12.7H303.323V79.339H289.71V12.7H261.919V0.0330722Z"
@@ -202,7 +202,7 @@ const NextIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const TailwindIcon: SvgIconProps = (props) => (
+const TailwindIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -216,7 +216,7 @@ const TailwindIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const NodeIcon: SvgIconProps = (props) => (
+const NodeIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -246,7 +246,7 @@ const NodeIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const ExpressIcon: SvgIconProps = (props) => (
+const ExpressIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -264,7 +264,7 @@ const ExpressIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const GitIcon: SvgIconProps = (props) => (
+const GitIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -278,7 +278,7 @@ const GitIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const GithubIcon: SvgIconProps = (props) => (
+const GithubIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -289,7 +289,7 @@ const GithubIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const FirebaseIcon: SvgIconProps = (props) => (
+const FirebaseIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -315,7 +315,7 @@ const FirebaseIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const VercelIcon: SvgIconProps = (props) => (
+const VercelIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     // fill="none"
@@ -330,7 +330,7 @@ const VercelIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const AwsIcon: SvgIconProps = (props) => (
+const AwsIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -348,7 +348,7 @@ const AwsIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const PhotoshopIcon: SvgIconProps = (props) => (
+const PhotoshopIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -370,7 +370,7 @@ const PhotoshopIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const IllustratorIcon: SvgIconProps = (props) => (
+const IllustratorIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -389,7 +389,7 @@ const IllustratorIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const DockerIcon: SvgIconProps = (props) => (
+const DockerIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -424,7 +424,7 @@ const DockerIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const K8sIcon: SvgIconProps = (props) => (
+const K8sIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
@@ -458,7 +458,7 @@ const K8sIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const TsIcon: SvgIconProps = (props) => (
+const TsIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden
@@ -477,7 +477,7 @@ const TsIcon: SvgIconProps = (props) => (
   </svg>
 );
 
-const GcpIcon: SvgIconProps = (props) => (
+const GcpIcon: SvgIconFc = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden

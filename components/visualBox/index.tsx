@@ -1,12 +1,13 @@
 import CircularProgress from '@mui/material/CircularProgress';
-import CustomToolTip from '@/components/customTooltip';
-import { VisualBoxProps } from '@/types';
 
-export default function VisualBox({ passionList }: VisualBoxProps) {
+import CustomTooltip from '@/components/customTooltip';
+import { type VisualBoxFc } from '@/types/components';
+
+const VisualBox: VisualBoxFc = ({ passionList }) => {
   return (
     <div className="flex items-center justify-center">
       {passionList.map(({ title, icon: IconComp }, idx) => (
-        <CustomToolTip title={title} key={idx}>
+        <CustomTooltip title={title} key={idx}>
           <div className="bg-[#001d3d98] py-3 px-6 mx-4 mt-3 rounded-lg flex items-center justify-center relative cursor-pointer duration-300 lg:px-8 lg:mt-4 hover:scale-110">
             <CircularProgress
               variant="determinate"
@@ -32,8 +33,10 @@ export default function VisualBox({ passionList }: VisualBoxProps) {
               <IconComp className="h-10 w-10 md:h-12 md:w-12" />
             </div>
           </div>
-        </CustomToolTip>
+        </CustomTooltip>
       ))}
     </div>
   );
-}
+};
+
+export default VisualBox;

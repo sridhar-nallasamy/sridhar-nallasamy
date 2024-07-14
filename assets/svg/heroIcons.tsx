@@ -1,13 +1,13 @@
-import { SVGAttributes } from 'react';
+import { type SvgIconFc } from '@/types';
 
-const Bars3Icon = (props: SVGAttributes<SVGElement>) => (
+const Bars3Icon: SvgIconFc = (props) => (
   <svg
     fill="none"
     stroke="currentColor"
     strokeWidth={1.5}
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
-    aria-hidden="true"
+    aria-hidden
     {...props}
   >
     <path
@@ -18,14 +18,14 @@ const Bars3Icon = (props: SVGAttributes<SVGElement>) => (
   </svg>
 );
 
-const XMarkIcon = (props: SVGAttributes<SVGElement>) => (
+const XMarkIcon: SvgIconFc = (props) => (
   <svg
     fill="none"
     stroke="currentColor"
     strokeWidth={1.5}
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
-    aria-hidden="true"
+    aria-hidden
     {...props}
   >
     <path
@@ -36,7 +36,7 @@ const XMarkIcon = (props: SVGAttributes<SVGElement>) => (
   </svg>
 );
 
-const DocumentTextIcon = (props: SVGAttributes<SVGElement>) => {
+const DocumentTextIcon: SvgIconFc = (props) => {
   return (
     <svg
       fill="none"
@@ -44,7 +44,7 @@ const DocumentTextIcon = (props: SVGAttributes<SVGElement>) => {
       strokeWidth={1.5}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
+      aria-hidden
       {...props}
     >
       <path
@@ -56,14 +56,14 @@ const DocumentTextIcon = (props: SVGAttributes<SVGElement>) => {
   );
 };
 
-const ChevronDoubleRightIcon = (props: SVGAttributes<SVGElement>) => (
+const ChevronDoubleRightIcon: SvgIconFc = (props) => (
   <svg
     fill="none"
     stroke="currentColor"
     strokeWidth={1.5}
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
-    aria-hidden="true"
+    aria-hidden
     {...props}
   >
     <path

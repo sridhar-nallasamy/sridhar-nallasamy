@@ -1,12 +1,7 @@
 import type { StaticImport } from 'next/dist/shared/lib/get-img-props';
-import type { FC, ReactElement, ReactNode, SVGAttributes } from 'react';
+import type { FC, SVGAttributes } from 'react';
 
-export type TimelineProps = {
-  emoji: string;
-  year: string;
-  where: string;
-  descriptions: string[];
-};
+export type SvgIconFc = FC<SVGAttributes<SVGElement>>;
 
 export type HobbiesListProps = {
   prefixEmoji: string;
@@ -22,39 +17,12 @@ export type PageLinkProps = {
 
 export type TechListType = {
   title: string;
-  icon: FC<SVGAttributes<SVGElement>>;
+  icon: SvgIconFc;
 };
-
-export type StackBoxProps = {
-  name: string;
-  techList: TechListType[];
-};
-
-export type TechBoxProps = { children: ReactNode };
-
-export type CustomToolTipProps = {
-  title: string;
-  children: ReactElement;
-};
-
-export type VisualBoxProps = { passionList: TechListType[] };
 
 export type BuildsListType = {
   title: string;
   link: string;
   image: string | StaticImport;
+  type?: string;
 };
-
-export type BuildsBoxProps = { buildsList: BuildsListType[] };
-
-export type ContactIconProps = {
-  icon: string | StaticImport;
-  title: string;
-  href: string;
-};
-
-export type PageLinksBoxProps = { pageLinks: PageLinkProps[] };
-
-export type NavListProps = { navList: PageLinkProps[] };
-
-export type SvgIconProps = FC<SVGAttributes<SVGElement>>;

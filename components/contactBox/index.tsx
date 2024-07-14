@@ -1,11 +1,13 @@
-import { ContactIconProps } from '@/types';
 import Link from 'next/link';
 import NextImg from 'next/image';
-import CustomToolTip from '../customTooltip';
 
-export default function ContactBox({ icon, title, href }: ContactIconProps) {
+import { type ContactBoxFc } from '@/types/components';
+
+import CustomTooltip from '../customTooltip';
+
+const ContactBox: ContactBoxFc = ({ icon, title, href }) => {
   return (
-    <CustomToolTip title={title}>
+    <CustomTooltip title={title}>
       <Link
         className="m-2 lg:m-4"
         href={href}
@@ -19,6 +21,8 @@ export default function ContactBox({ icon, title, href }: ContactIconProps) {
           className="h-10 w-10 md:h-12 md:w-12"
         />
       </Link>
-    </CustomToolTip>
+    </CustomTooltip>
   );
-}
+};
+
+export default ContactBox;

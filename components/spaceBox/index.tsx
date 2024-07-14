@@ -1,22 +1,16 @@
-interface SpaceBoxProps {
-  children: React.ReactNode;
-  className?: string;
-  id?: string;
-}
+import { type SpaceBoxFc } from '@/types/components';
 
-export default function SpaceBox({
-  children,
-  className,
-  ...otherProps
-}: SpaceBoxProps) {
+const SpaceBox: SpaceBoxFc = ({ children, className, id }) => {
   return (
     <div
       className={`shadow-mine-2-10 bg-black-transparent rounded-lg flex items-center justify-center ${
         className ? className : ''
       }`}
-      {...otherProps}
+      {...(id && { id })}
     >
       {children}
     </div>
   );
-}
+};
+
+export default SpaceBox;

@@ -1,12 +1,9 @@
 import Tooltip from '@mui/material/Tooltip';
 import Zoom from '@mui/material/Zoom';
 
-type CustomToolTipProps = {
-  title: string;
-  children: React.ReactElement;
-};
+import { type CustomTooltipFc } from '@/types/components';
 
-export default function CustomToolTip({ title, children }: CustomToolTipProps) {
+const CustomTooltip: CustomTooltipFc = ({ title, children }) => {
   return (
     <Tooltip
       placement="top"
@@ -30,4 +27,6 @@ export default function CustomToolTip({ title, children }: CustomToolTipProps) {
       {children}
     </Tooltip>
   );
-}
+};
+
+export default CustomTooltip;
