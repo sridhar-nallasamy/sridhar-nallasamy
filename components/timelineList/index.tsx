@@ -13,12 +13,14 @@ export default function TimelineList(props: TimelineProps) {
       </h3>
       <h4 className="text-sm">{where}</h4>
       {descriptions.map((description, idx) => (
-        <h5 key={idx} className="text-xs mt-1 ml-6 first-of-type:mt-2">
-          <span role="img" className="mr-3 text-green-100">
-            •
-          </span>
-          {description}
-        </h5>
+        <div
+          key={idx}
+          className="before:content-['•'] before:text-green-100 before:mr-3 mt-1 ml-3"
+        >
+          <div className="inline">
+            <h5 className="inline-flex text-xs">{description}</h5>
+          </div>
+        </div>
       ))}
     </li>
   );

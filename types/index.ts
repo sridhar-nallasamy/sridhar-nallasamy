@@ -1,5 +1,5 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
-import { FC, ReactElement, ReactNode, SVGAttributes } from 'react';
+import type { StaticImport } from 'next/dist/shared/lib/get-img-props';
+import type { FC, ReactElement, ReactNode, SVGAttributes } from 'react';
 
 export type TimelineProps = {
   emoji: string;
@@ -56,3 +56,5 @@ export type ContactIconProps = {
 export type PageLinksBoxProps = { pageLinks: PageLinkProps[] };
 
 export type NavListProps = { navList: PageLinkProps[] };
+
+export type SvgIconProps = FC<SVGAttributes<SVGElement>>;

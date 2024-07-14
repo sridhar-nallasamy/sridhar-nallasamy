@@ -27,7 +27,7 @@ export default function About() {
       emoji: '💼',
       year: '2022 - Present',
       where: 'Deloitte, Bangalore',
-      descriptions: ['ReactJs, Single Spa, NodeJs & AWS'],
+      descriptions: ['ReactJs, Single Spa, TS, NodeJs, Docker, K8s & AWS'],
     },
   ];
 
@@ -66,7 +66,7 @@ export default function About() {
           </ul>
         </SpaceBox>
         <SpaceBox className="p-5 flex-col mt-4 lg:mt-0 lg:w-[45%]">
-          <ul className="relative">
+          <ul className="relative ">
             {workList.map((worklistProps, idx) => (
               <TimelineList key={idx} {...worklistProps} />
             ))}

@@ -1,14 +1,17 @@
 import {
   AwsIcon,
   CssIcon,
+  DockerIcon,
   ExpressIcon,
   FirebaseIcon,
+  GcpIcon,
   GitIcon,
   GithubIcon,
   HtmlIcon,
   IllustratorIcon,
   JavaIcon,
   JsIcon,
+  K8sIcon,
   NextIcon,
   NodeIcon,
   PhotoshopIcon,
@@ -16,7 +19,7 @@ import {
   ReduxIcon,
   SpringIcon,
   TailwindIcon,
-  VercelIcon,
+  TsIcon,
 } from '@/assets/svg/icons8';
 import BienesmartLogo from '@/assets/svg/bienesmart.svg';
 import SpaceBox from '@/components/spaceBox';
@@ -41,6 +44,7 @@ export default function Skills() {
   const backEndList: TechListType[] = [
     { title: 'Java', icon: JavaIcon },
     { title: 'Spring Boot', icon: SpringIcon },
+    { title: 'Typescript', icon: TsIcon },
     { title: 'NodeJs', icon: NodeIcon },
     { title: 'ExpressJs', icon: ExpressIcon },
   ];
@@ -48,8 +52,10 @@ export default function Skills() {
   const toolsList: TechListType[] = [
     { title: 'Git', icon: GitIcon },
     { title: 'GitHub', icon: GithubIcon },
+    { title: 'Docker', icon: DockerIcon },
+    { title: 'K8s', icon: K8sIcon },
     { title: 'Firebase', icon: FirebaseIcon },
-    { title: 'Vercel', icon: VercelIcon },
+    { title: 'GCP', icon: GcpIcon },
     { title: 'AWS', icon: AwsIcon },
   ];
 
