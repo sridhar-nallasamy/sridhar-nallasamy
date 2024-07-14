@@ -3,6 +3,13 @@ import type { FC, SVGAttributes } from 'react';
 
 export type SvgIconFc = FC<SVGAttributes<SVGElement>>;
 
+export type TimelineProps = {
+  emoji: string;
+  year: string;
+  where: string;
+  descriptions: string[];
+};
+
 export type HobbiesListProps = {
   prefixEmoji: string;
   descriiption: string;
@@ -25,4 +32,10 @@ export type BuildsListType = {
   link: string;
   image: string | StaticImport;
   type?: string;
+};
+
+export type ContactIconProps = {
+  icon: string | StaticImport;
+  title: string;
+  href: string;
 };

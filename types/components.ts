@@ -1,15 +1,16 @@
 import type { FC, ReactElement } from 'react';
-import { type StaticImport } from 'next/dist/shared/lib/get-img-props';
 
-import type { BuildsListType, PageLinkProps, TechListType } from '.';
+import type {
+  BuildsListType,
+  ContactIconProps,
+  PageLinkProps,
+  TechListType,
+  TimelineProps,
+} from '.';
 
 export type BuildsBoxFc = FC<{ buildsList: BuildsListType[] }>;
 
-export type ContactBoxFc = FC<{
-  icon: string | StaticImport;
-  title: string;
-  href: string;
-}>;
+export type ContactBoxFc = FC<ContactIconProps>;
 
 export type CustomTooltipFc = FC<{
   title: string;
@@ -36,11 +37,6 @@ export type TechBoxFc = FC<{ children: ReactElement }>;
 
 export type StackBoxFc = FC<{ name: string; techList: TechListType[] }>;
 
-export type TimelineFc = FC<{
-  emoji: string;
-  year: string;
-  where: string;
-  descriptions: string[];
-}>;
+export type TimelineFc = FC<TimelineProps>;
 
 export type VisualBoxFc = FC<{ passionList: TechListType[] }>;

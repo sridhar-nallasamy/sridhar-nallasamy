@@ -10,7 +10,8 @@
     "lint": "next lint",
     "prepare": "husky install",
     "format-check": "prettier --check .",
-    "format-write": "prettier --write ."
+    "format-write": "prettier --write .",
+    "type-check": "tsc"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.197",

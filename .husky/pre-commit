@@ -18,4 +18,13 @@ pnpm lint ||
     false;
 )
 
+echo '🛞🚨 Making sure no type errors in your code before committing...'
+pnpm type-check ||
+(
+
+    echo '⚠️ Oops❗, you have a problem in your code. Check types ❌⚒️
+          💡Run pnpm type-check, add changes & try committing again.👍🏻';
+    false;
+)
+
 echo '🎉 No linting error found, committing this now...✨🚀🏄‍♂️🍻'
