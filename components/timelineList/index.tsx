@@ -15,11 +15,11 @@ export default function TimelineList(props: TimelineProps) {
       {descriptions.map((description, idx) => (
         <div
           key={idx}
-          className="before:content-['•'] before:text-green-100 before:mr-3 mt-1 ml-3"
+          className="flex mt-1 ml-3 before:content-['•'] before:text-green-100 before:mr-3"
         >
-          <div className="inline">
-            <h5 className="inline-flex text-xs">{description}</h5>
-          </div>
+          <h5 className="mt-1 text-xs">
+            {description + ' qwerty qwerty qwerty'}
+          </h5>
         </div>
       ))}
     </li>
