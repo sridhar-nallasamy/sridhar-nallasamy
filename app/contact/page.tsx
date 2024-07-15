@@ -3,7 +3,7 @@ import LinkedinIcon from '@/assets/svg/linkedinIcon.svg';
 import InstaIcon from '@/assets/svg/instaIcon.svg';
 import GitHubIcon from '@/assets/svg/githubIcon.svg';
 import DiscordIcon from '@/assets/svg/discordIcon.svg';
-import FacebookIcon from '@/assets/svg/facebookIcon.svg';
+import SnapchatIcon from '@/assets/svg/snapchatIcon.svg';
 import SpaceBox from '@/components/spaceBox';
 import { ContactIconProps } from '@/types';
 import ContactBox from '@/components/contactBox';
@@ -36,9 +36,9 @@ export default function Contact() {
       href: 'https://www.instagram.com/sridhar.n3/',
     },
     {
-      icon: FacebookIcon,
-      title: 'Facebook',
-      href: 'https://www.facebook.com/sri.luzifer/',
+      icon: SnapchatIcon,
+      title: 'Snapchat',
+      href: 'https://www.snapchat.com/add/n.sridhar3',
     },
   ];
   return (

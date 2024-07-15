@@ -7,7 +7,7 @@ const BuildsBox: BuildsBoxFc = ({ buildsList }) => {
   return (
     <div className="w-full">
       <div className="bg-slate-700 rounded-t-lg py-1 md:py-2">
-        <h3 className="text-white text-center">My-Build</h3>
+        <h3 className="text-white text-center">My-Builds</h3>
       </div>
       <div className="flex justify-evenly">
         {buildsList.map(({ title, image, link, type }, idx) => (

@@ -66,7 +66,7 @@ export default function About() {
           </ul>
         </SpaceBox>
         <SpaceBox className="p-5 flex-col mt-4 lg:mt-0 lg:w-[45%]">
-          <ul className="relative ">
+          <ul className="relative">
             {workList.map((worklistProps, idx) => (
               <TimelineList key={idx} {...worklistProps} />
             ))}
