@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { DocumentTextIcon } from '@/assets/svg/heroIcons';
 import SpaceBox from '@/components/spaceBox';
-import { HobbiesListProps, TimelineProps } from '@/types';
+import type { HobbiesListProps, TimelineProps } from '@/types';
 import TimelineList from '@/components/timelineList';
 import { getPageLinks } from '@/utils/helpers';
 import PageLinksBox from '@/components/pageLinksBox';

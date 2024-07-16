@@ -27,7 +27,7 @@ import SpaceBox from '@/components/spaceBox';
 import VisualBox from '@/components/visualBox';
 import BuildsBox from '@/components/buildsBox';
 import StackBox from '@/components/stackBox';
-import { BuildsListType, TechListType } from '@/types';
+import type { BuildsListType, TechListType } from '@/types';
 import PageLinksBox from '@/components/pageLinksBox';
 import { getPageLinks } from '@/utils/helpers';
 

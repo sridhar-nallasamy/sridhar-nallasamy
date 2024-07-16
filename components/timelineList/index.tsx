@@ -1,4 +1,4 @@
-import type { TimelineFc } from '@/types/components';
+import { type TimelineFc } from '@/types/components';
 
 const TimelineList: TimelineFc = ({ descriptions, emoji, where, year }) => {
   return (
