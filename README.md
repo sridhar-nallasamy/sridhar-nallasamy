@@ -53,6 +53,7 @@
   <img src="https://img.shields.io/badge/Firebase-072F5F?style=flat&logo=firebase" alt="Firebase" />
   <img src="https://img.shields.io/badge/Google Cloud-072F5F?style=flat&logo=google-cloud" alt="Google Cloud" />
   <img src="https://img.shields.io/badge/AWS-072F5F?style=flat&logo=amazonwebservices&logoColor=ff9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/Vercel-072F5F?style=flat&logo=vercel" alt="Vercel" />
   <img src="https://img.shields.io/badge/Stripe-072F5F?style=flat&logo=stripe" alt="Stripe" />
 </div>
 <div>
@@ -105,4 +106,4 @@
 <hr />
 <img src="/assets/gif/Earth.gif" height="20px" width="20px" alt="world gif" align="right" />
 <img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&color=green" alt="view count" align="right" />
-<h6>Last Edited: 15-Jul-2024</h6>
+<h6>Last Edited: 16-Jul-2024</h6>
