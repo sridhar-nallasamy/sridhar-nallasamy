@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { Nunito } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import SpaceBg from '@/components/spaceBg';
 import Navbar from '@/components/navbar';
+
 import './globals.css';
 
 const nunito = Nunito({ subsets: ['latin'] });
@@ -28,6 +31,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
