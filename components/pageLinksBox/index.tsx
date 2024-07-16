@@ -1,9 +1,11 @@
 import Link from 'next/link';
-import { PageLinksBoxProps } from '@/types';
+
+import { type PageLinksBoxFc } from '@/types/components';
 import { ChevronDoubleRightIcon } from '@/assets/svg/heroIcons';
+
 import SpaceBox from '../spaceBox';
 
-export default function PageLinksBox({ pageLinks }: PageLinksBoxProps) {
+const PageLinksBox: PageLinksBoxFc = ({ pageLinks }) => {
   return (
     <div className="flex flex-col items-center justify-evenly mt-4 lg:flex-row lg:mt-6">
       {pageLinks.map(({ link, coverText }, idx) => (
@@ -20,4 +22,6 @@ export default function PageLinksBox({ pageLinks }: PageLinksBoxProps) {
       ))}
     </div>
   );
-}
+};
+
+export default PageLinksBox;

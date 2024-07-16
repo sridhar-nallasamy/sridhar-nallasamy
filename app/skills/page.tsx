@@ -1,14 +1,17 @@
 import {
   AwsIcon,
   CssIcon,
+  DockerIcon,
   ExpressIcon,
   FirebaseIcon,
+  GcpIcon,
   GitIcon,
   GithubIcon,
   HtmlIcon,
   IllustratorIcon,
   JavaIcon,
   JsIcon,
+  K8sIcon,
   NextIcon,
   NodeIcon,
   PhotoshopIcon,
@@ -16,14 +19,15 @@ import {
   ReduxIcon,
   SpringIcon,
   TailwindIcon,
-  VercelIcon,
+  TsIcon,
 } from '@/assets/svg/icons8';
 import BienesmartLogo from '@/assets/svg/bienesmart.svg';
+import PrintinkzLogo from '@/assets/svg/printinkz.svg';
 import SpaceBox from '@/components/spaceBox';
 import VisualBox from '@/components/visualBox';
 import BuildsBox from '@/components/buildsBox';
 import StackBox from '@/components/stackBox';
-import { BuildsListType, TechListType } from '@/types';
+import type { BuildsListType, TechListType } from '@/types';
 import PageLinksBox from '@/components/pageLinksBox';
 import { getPageLinks } from '@/utils/helpers';
 
@@ -41,6 +45,7 @@ export default function Skills() {
   const backEndList: TechListType[] = [
     { title: 'Java', icon: JavaIcon },
     { title: 'Spring Boot', icon: SpringIcon },
+    { title: 'Typescript', icon: TsIcon },
     { title: 'NodeJs', icon: NodeIcon },
     { title: 'ExpressJs', icon: ExpressIcon },
   ];
@@ -48,8 +53,10 @@ export default function Skills() {
   const toolsList: TechListType[] = [
     { title: 'Git', icon: GitIcon },
     { title: 'GitHub', icon: GithubIcon },
+    { title: 'Docker', icon: DockerIcon },
+    { title: 'K8s', icon: K8sIcon },
     { title: 'Firebase', icon: FirebaseIcon },
-    { title: 'Vercel', icon: VercelIcon },
+    { title: 'GCP', icon: GcpIcon },
     { title: 'AWS', icon: AwsIcon },
   ];
 
@@ -63,6 +70,12 @@ export default function Skills() {
       title: 'BienesMart',
       image: BienesmartLogo,
       link: 'https://bienes-mart.web.app',
+    },
+    {
+      title: 'Printinkz Dashboard',
+      image: PrintinkzLogo,
+      link: 'https://dashboard.printinkz.com',
+      type: 'Dashboard',
     },
   ];
 
@@ -100,7 +113,7 @@ export default function Skills() {
         </h3>
         <VisualBox passionList={passionList} />
       </SpaceBox>
-      <SpaceBox className="flex-col mt-4 lg:mt-6 w-full h-fit md:w-1/5">
+      <SpaceBox className="flex-col mt-4 lg:mt-6 w-full h-fit md:w-1/3">
         <BuildsBox buildsList={buildsList} />
       </SpaceBox>
       <div className="w-full">

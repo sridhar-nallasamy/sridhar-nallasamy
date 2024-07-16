@@ -1,4 +1,4 @@
-import { PageLinkProps } from '@/types';
+import { type PageLinkProps } from '@/types';
 
 const pageLinks: PageLinkProps[] = [
   { title: 'Home', link: '/', coverText: 'Wanna look my home page?' },

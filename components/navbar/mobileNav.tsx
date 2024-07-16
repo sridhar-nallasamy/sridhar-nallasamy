@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Bars3Icon, XMarkIcon } from '@/assets/svg/heroIcons';
-import { NavListProps } from '@/types';
 
-export default function MobileNav({ navList }: NavListProps) {
+import { Bars3Icon, XMarkIcon } from '@/assets/svg/heroIcons';
+import { type DesktopNavFc } from '@/types/components';
+
+const MobileNav: DesktopNavFc = ({ navList }) => {
   const [isShowMobileNav, setIsShowMobileNav] = useState<boolean>(false);
 
   const closeHandler = () => {
@@ -57,4 +58,6 @@ export default function MobileNav({ navList }: NavListProps) {
       )}
     </div>
   );
-}
+};
+
+export default MobileNav;

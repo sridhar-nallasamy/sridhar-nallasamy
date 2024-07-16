@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import NextImg from 'next/image';
+
 import VgsLogo from '@/assets/png/VGS.png';
 import { pageLinks } from '@/constants';
+
 import MobileNav from './mobileNav';
 import DesktopNav from './desktopNav';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <nav className="flex items-center justify-between lg:justify-center px-6 lg:flex-col">
       <Link href="/">
@@ -25,4 +27,6 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;

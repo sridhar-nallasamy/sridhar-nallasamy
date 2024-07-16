@@ -2,10 +2,12 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { NavListProps } from '@/types';
+
+import { type DesktopNavFc } from '@/types/components';
+
 import SpaceBox from '../spaceBox';
 
-export default function DesktopNav({ navList }: NavListProps) {
+const DesktopNav: DesktopNavFc = ({ navList }) => {
   const pathname = usePathname();
 
   if (pathname === '/') return null;
@@ -21,4 +23,6 @@ export default function DesktopNav({ navList }: NavListProps) {
       ))}
     </div>
   );
-}
+};
+
+export default DesktopNav;

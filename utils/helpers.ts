@@ -1,15 +1,37 @@
-import { pageLinks } from '@/constants';
-import { PageLinkProps } from '@/types';
+import random from 'lodash/random';
 
-function getPageLinks(currentPage: string): PageLinkProps[] {
+import { pageLinks } from '@/constants';
+import type {
+  getBoxShadowFn,
+  getPageLinksFn,
+  pageFilterFn,
+} from '@/types/helpers';
+
+const getPageLinks: getPageLinksFn = (currentPage) => {
   if (currentPage === '/navBar') return pageLinks;
 
   const linksList = currentPage === '/' ? [currentPage] : ['/', currentPage];
 
-  const filterFn = (nextLink: PageLinkProps): boolean =>
-    !linksList.includes(nextLink.link);
+  const pageFilter: pageFilterFn = (nextLink) => {
+    return !linksList.includes(nextLink.link);
+  };
 
-  return pageLinks.filter(filterFn);
-}
+  return pageLinks.filter(pageFilter);
+};
 
-export { getPageLinks };
+const getBoxShadow: getBoxShadowFn = (num) => {
+  const makeShadow = (): string =>
+    `${random(1, 2000) / 16}rem ${random(1, 2000) / 16}rem #fff`;
+
+  let res = makeShadow();
+  let idx = 1;
+
+  while (idx <= num) {
+    res += `, ${makeShadow()}`;
+    idx += 1;
+  }
+
+  return res;
+};
+
+export { getPageLinks, getBoxShadow };
