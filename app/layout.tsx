@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/og-update/assets/png/VgsOgImg.png',
+        url: 'https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/png/VgsOgImg.png',
         width: 1200,
         height: 627,
         alt: metaInfo.title,
