@@ -37,6 +37,7 @@ export default function Home() {
             src={TechieImg}
             alt="TechieImg"
             quality={100}
+            priority
             className="h-32 w-fit object-contain pointer-events-none md:h-40 lg:h-56"
           />
         </div>
