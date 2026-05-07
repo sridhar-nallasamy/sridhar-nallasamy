@@ -63,7 +63,7 @@ export default function Contact() {
             <SpaceBox
               className={cn(
                 'mb-4 justify-start p-2',
-                'duration-250 hover:scale-102',
+                'duration-250 hover:scale-103',
               )}
             >
               <ContactBox {...contact} />

@@ -5,6 +5,7 @@ import { Nunito } from 'next/font/google';
 
 import Navbar from '@/components/Navbar';
 import NudgeLink from '@/components/NudgeLink';
+import ScrollToTop from '@/components/ScrollToTop';
 import SpaceBackground from '@/components/SpaceBackground';
 import { cn } from '@/utils/helpers';
 
@@ -50,6 +51,7 @@ export default function RootLayout({
           'flex h-dvh flex-col bg-[#333333] text-white',
         )}
       >
+        <ScrollToTop />
         <SpaceBackground />
         <Navbar className='pt-2 lg:px-10 lg:pt-4' />
         <main className='flex-1 p-5 pt-4 lg:p-6 lg:pt-4'>{children}</main>

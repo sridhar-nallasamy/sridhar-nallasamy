@@ -11,31 +11,37 @@ const jetBrainsMono = JetBrains_Mono({ subsets: ['latin'] });
 
 const HomeNudge: HomeNudgeFc = ({ className }) => {
   return (
-    <SpaceBox className={cn(jetBrainsMono.className, className)}>
-      <div
-        className={cn(
-          'w-full overflow-hidden rounded-lg border',
-          'border-taupe-800 bg-[#2b242215]',
-        )}
-      >
-        <div className='border-b border-b-taupe-800 bg-[#2b242225] px-3 py-2'>
-          <span className='mr-2 text-taupe-500'>&gt;</span>
-          <span className='text-xs text-taupe-400'>Navigate to...</span>
+    <div className={className}>
+      <SpaceBox className={cn('p-4', jetBrainsMono.className)}>
+        <div
+          className={cn(
+            'w-full overflow-hidden rounded-lg border',
+            'border-gray-800 bg-[#69696915]',
+          )}
+        >
+          <div className='border-b border-b-gray-800 bg-[#69696930] px-3 py-2'>
+            <span className='mr-2 text-cyan-400'>&gt;</span>
+            <span className='text-xs font-semibold text-gray-400'>
+              Navigate to...
+            </span>
+          </div>
+          {Object.values(ROUTES).map(({ href, icon, description }) => (
+            <Link href={href} key={href}>
+              <div className='flex items-center gap-3 px-3 py-2.5 text-xs hover:bg-[#69696920]'>
+                <span>{icon}</span>
+                <span className='min-w-16 font-semibold text-gray-300'>
+                  {href}
+                </span>
+                <p className='text-gray-500'>{description}</p>
+                <kbd className='ml-auto rounded-lg border border-gray-700 bg-[#69696920] px-3 py-1 text-gray-400'>
+                  ↵
+                </kbd>
+              </div>
+            </Link>
+          ))}
         </div>
-        {Object.values(ROUTES).map(({ href, icon, nudgeNote }) => (
-          <Link href={href} key={href}>
-            <div className='flex items-center gap-3 px-3 py-2.5 text-xs hover:bg-[#2b242275]'>
-              <span>{icon}</span>
-              <span className='min-w-16 text-taupe-300'>{href}</span>
-              <p className='text-taupe-500'>{nudgeNote}</p>
-              <kbd className='ml-auto rounded-lg border border-taupe-700 bg-[#2b242250] px-3 py-1'>
-                ↵
-              </kbd>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </SpaceBox>
+      </SpaceBox>
+    </div>
   );
 };
 

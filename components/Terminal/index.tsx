@@ -46,7 +46,7 @@ const Terminal: TerminalFc = ({ className }) => {
             )}
           </TerminalLine>
         ))}
-        <TerminalLine className='[animation-delay:2600ms]'>
+        <TerminalLine className='h-[2lh] items-start [animation-delay:2600ms]'>
           <Typewriter list={TERMINAL.focus}>
             <span className='animate-blink mb-1 ml-0.5 inline-block h-4 w-2 bg-cyan-400 align-middle' />
           </Typewriter>

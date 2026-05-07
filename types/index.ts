@@ -14,8 +14,8 @@ type RouteProp = {
   title: string;
   href: string;
   icon: string;
-  nudgeNote: string;
-  nudgeLabel: string;
+  description: string;
+  label: string;
   nudgeLink: string;
 };
 

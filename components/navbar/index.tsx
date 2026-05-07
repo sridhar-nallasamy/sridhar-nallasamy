@@ -4,7 +4,7 @@ import NextImg from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import VgsLogo from '@/assets/png/VGS.png';
+import VgsLogo from '@/assets/svg/VGS.svg';
 import { ROUTES } from '@/constants';
 import type { NavbarFc } from '@/types/components';
 import { cn } from '@/utils/helpers';
