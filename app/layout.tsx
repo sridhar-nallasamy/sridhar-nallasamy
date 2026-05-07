@@ -2,6 +2,8 @@ import './globals.css';
 
 import type { Metadata, Viewport } from 'next';
 import { Nunito } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import Navbar from '@/components/Navbar';
 import NudgeLink from '@/components/NudgeLink';
@@ -56,6 +58,8 @@ export default function RootLayout({
         <Navbar className='pt-2 lg:px-10 lg:pt-4' />
         <main className='flex-1 p-5 pt-4 lg:p-6 lg:pt-4'>{children}</main>
         <NudgeLink />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
