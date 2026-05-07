@@ -1,27 +1,24 @@
-import Link from 'next/link';
 import NextImg from 'next/image';
+import Link from 'next/link';
 
-import { type ContactBoxFc } from '@/types/components';
+import type { ContactBoxFc } from '@/types/components';
 
-import CustomTooltip from '../customTooltip';
-
-const ContactBox: ContactBoxFc = ({ icon, title, href }) => {
+const ContactBox: ContactBoxFc = ({ icon, title, note, href }) => {
   return (
-    <CustomTooltip title={title}>
-      <Link
-        className="m-2 lg:m-4"
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <NextImg
-          quality={100}
-          src={icon}
-          alt={title}
-          className="h-10 w-10 md:h-12 md:w-12"
-        />
-      </Link>
-    </CustomTooltip>
+    <Link
+      className='flex w-full items-center gap-2'
+      href={href}
+      target='_blank'
+      rel='noopener noreferrer'
+      title={title}
+    >
+      <NextImg quality={100} src={icon} alt={title} className='size-10' />
+      <div>
+        <span className='text-sm'>{title}</span>
+        <p className='text-xs text-gray-400'>{note}</p>
+      </div>
+      <span className='mr-3 ml-auto text-gray-500'>→</span>
+    </Link>
   );
 };
 

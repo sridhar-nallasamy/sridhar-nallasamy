@@ -1,30 +1,44 @@
-import Link from 'next/link';
+'use client';
+
 import NextImg from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 import VgsLogo from '@/assets/png/VGS.png';
-import { pageLinks } from '@/constants';
+import { ROUTES } from '@/constants';
+import type { NavbarFc } from '@/types/components';
+import { cn } from '@/utils/helpers';
 
-import MobileNav from './mobileNav';
-import DesktopNav from './desktopNav';
+const Navbar: NavbarFc = ({ className }) => {
+  const pathname = usePathname();
 
-const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between lg:justify-center px-6 lg:flex-col">
-      <Link href="/">
+    <nav className={cn('flex items-center gap-4 px-6', className)}>
+      <Link href='/' className='mr-auto' title='SN Logo'>
         <NextImg
           src={VgsLogo}
-          alt="Vgs Logo"
+          alt='SN Logo'
           quality={100}
-          priority
-          className="h-[4.5rem] w-[4.5rem] md:[5.3rem] md:w-[5.3rem] lg:h-24 lg:w-24 object-contain cursor-pointer pointer-events-none"
+          loading='eager'
+          className={cn(
+            'pointer-events-none flex-1 cursor-pointer object-contain',
+            'size-18 md:size-20 lg:size-20',
+          )}
         />
       </Link>
-      <div id="desktop-nav" className="hidden lg:block lg:w-2/3 lg:mt-1">
-        <DesktopNav navList={pageLinks} />
-      </div>
-      <div id="mobile-nav" className="lg:hidden">
-        <MobileNav navList={pageLinks} />
-      </div>
+      {Object.values(ROUTES).map(({ href, title }) => (
+        <Link href={href} key={href}>
+          <span
+            className={cn(
+              'text-sm font-semibold 2xl:text-base',
+              'text-gray-400 transition duration-250 hover:text-green-400',
+              pathname === href && 'border-b text-green-400',
+            )}
+          >
+            {title}
+          </span>
+        </Link>
+      ))}
     </nav>
   );
 };

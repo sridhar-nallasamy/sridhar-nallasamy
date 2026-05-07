@@ -1,12 +1,12 @@
-import type { Metadata } from 'next';
-import { Nunito } from 'next/font/google';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-
-import SpaceBg from '@/components/spaceBg';
-import Navbar from '@/components/navbar';
-
 import './globals.css';
+
+import type { Metadata, Viewport } from 'next';
+import { Nunito } from 'next/font/google';
+
+import Navbar from '@/components/Navbar';
+import NudgeLink from '@/components/NudgeLink';
+import SpaceBackground from '@/components/SpaceBackground';
+import { cn } from '@/utils/helpers';
 
 const nunito = Nunito({ subsets: ['latin'] });
 
@@ -15,12 +15,12 @@ const metaInfo = {
   description: 'Portfolio Website of Sridhar Nallasamy',
 };
 
+export const viewport: Viewport = {
+  viewportFit: 'cover',
+};
+
 export const metadata: Metadata = {
   ...metaInfo,
-  viewport: {
-    width: 'device-width',
-    initialScale: 1.0,
-  },
   openGraph: {
     ...metaInfo,
     url: 'https://sridhar-nallasamy.vercel.app/',
@@ -39,17 +39,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${nunito.className} bg-space-dark text-white h-screen`}>
-        <SpaceBg />
-        <Navbar />
-        {children}
-        <Analytics />
-        <SpeedInsights />
+    <html lang='en' className={cn(nunito.className, 'antialiased')}>
+      <body
+        className={cn(
+          nunito.className,
+          'flex h-dvh flex-col bg-[#333333] text-white',
+        )}
+      >
+        <SpaceBackground />
+        <Navbar className='pt-2 lg:px-10 lg:pt-4' />
+        <main className='flex-1 p-5 pt-4 lg:p-6 lg:pt-4'>{children}</main>
+        <NudgeLink />
       </body>
     </html>
   );
