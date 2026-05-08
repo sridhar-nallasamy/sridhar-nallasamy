@@ -104,8 +104,8 @@ const SKILLS: SkillsProps = {
   FE: {
     label: 'What I Architect',
     title: 'Frontend Systems',
-    note: 'Design & building scalable React & Next.js applications in Typescript ⎯ design generic components, client & server state managements, performance optimization, web vitals',
-    atGlance: { year: 2019, word: 'Primary focus' },
+    note: 'Architecting large-scale React & Next.js applications in TypeScript - from design system foundations and component APIs to client/server state orchestration, rendering strategies (SSR, ISR, RSC) and performance budgets that hold under real traffic.',
+    atGlance: { year: 2019, word: 'Default mode' },
     compact: [
       {
         icon: '⚛️',
@@ -122,8 +122,8 @@ const SKILLS: SkillsProps = {
   BE: {
     label: 'What I Build',
     title: 'Backend & API Design',
-    note: 'Node.Js & Spring Boot services ⎯ REST, GraphQL, microservices, AI tooling (Python), auth systems, automations with Java JAR',
-    atGlance: { year: 2021, word: 'Production systems' },
+    note: 'Building production Node.js & Java/Spring Boot services - REST & GraphQL APIs, event-driven microservices, authentication flows, database modeling and Python-based AI tooling that plugs into existing product surfaces.',
+    atGlance: { year: 2021, word: 'Under the hood' },
     compact: [
       { icon: '🟢', name: 'Node.js', meta: 'REST ・ GraphQL ・ Microservices' },
       { icon: '☕️', name: 'Java & Spring', meta: 'Enterprise ・ Automations' },
@@ -132,8 +132,8 @@ const SKILLS: SkillsProps = {
   Infra: {
     label: 'What I Ship',
     title: 'Infra & DevOps',
-    note: 'Cloud-agnostic, CI/CD pipelines, GitHub actions, containerization, deployments, monitoring',
-    atGlance: { year: 2020, word: 'Team-level ownership' },
+    note: 'Shipping reliable infrastructure on GCP & AWS - containerized workloads with Docker & Kubernetes, automated CI/CD pipelines, observability setups and deployment strategies that keep services up without paging anyone at 3am.',
+    atGlance: { year: 2020, word: 'Zero hand-offs' },
     compact: [
       { icon: '☁️', name: 'GCP & AWS', meta: 'Deploy ・ Scale ・ Monitor' },
       { icon: '🐳', name: 'Docker & K8s', meta: 'Containers ・ Pipelines' },
@@ -149,7 +149,7 @@ const SKILLS: SkillsProps = {
       'ShadCN',
       'Tailwind CSS',
       'Micro Frontend',
-      'Express',
+      'Express.js',
       'Python',
       'PostgreSQL',
       'MongoDB',
@@ -225,9 +225,10 @@ const TERMINAL = {
     },
   ],
   focus: [
+    'I turn ideas into production-grade software.',
     'I architect scalable frontend systems.',
-    'I build design systems that ship.',
-    'I craft interfaces, one component at a time.',
+    'I build services that handle the load.',
+    'I ship end-to-end — pixel to pipeline.',
   ],
 };
 
