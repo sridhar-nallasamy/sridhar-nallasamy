@@ -9,34 +9,21 @@ import Navbar from '@/components/Navbar';
 import NudgeLink from '@/components/NudgeLink';
 import ScrollToTop from '@/components/ScrollToTop';
 import SpaceBackground from '@/components/SpaceBackground';
+import { META_INFO } from '@/constants';
 import { cn } from '@/utils/helpers';
 
 const nunito = Nunito({ subsets: ['latin'] });
-
-const metaInfo = {
-  title: 'Sridhar Nallasamy 😊',
-  description: 'Portfolio Website of Sridhar Nallasamy',
-};
 
 export const viewport: Viewport = {
   viewportFit: 'cover',
 };
 
 export const metadata: Metadata = {
-  ...metaInfo,
+  ...META_INFO,
   openGraph: {
-    ...metaInfo,
-    url: 'https://sridhar-nallasamy.vercel.app/',
-    siteName: metaInfo.title,
+    ...META_INFO,
+    siteName: META_INFO.title,
     type: 'website',
-    images: [
-      {
-        url: 'https://raw.githubusercontent.com/sridhar-nallasamy/sridhar-nallasamy/main/assets/png/VgsOgImg.png',
-        width: 1200,
-        height: 627,
-        alt: metaInfo.title,
-      },
-    ],
   },
 };
 

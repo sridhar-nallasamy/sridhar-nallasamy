@@ -17,6 +17,16 @@ import type {
   TimelineProps,
 } from '@/types';
 
+const META_INFO = {
+  title: 'Sridhar Nallasamy 😊',
+  description:
+    'Building production-grade systems from pixel to pipeline. Frontend-first, fuss-stack by nature.',
+  url: 'https://sridhar-nallasamy.vercel.app/',
+  ogTitle: 'Sridhar Nallasamy',
+  ogSubTitle: 'Senior Software Engineer',
+  ogDescription: 'Scalable systems ・ Clean APIs ・ Production-grade code',
+};
+
 const ROUTES: RoutesProps = {
   '/about': {
     title: 'About',
@@ -236,6 +246,7 @@ export {
   BUILDS,
   CONTACTS,
   EDUCATION,
+  META_INFO,
   RESUME_DRIVE_LINK,
   ROUTES,
   SKILLS,
