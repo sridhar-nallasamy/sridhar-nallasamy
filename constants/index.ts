@@ -20,7 +20,7 @@ import type {
 const META_INFO = {
   title: 'Sridhar Nallasamy 😊',
   description:
-    'Building production-grade systems from pixel to pipeline. Frontend-first, fuss-stack by nature.',
+    'Senior Software Engineer — Building production-grade systems from pixel to pipeline. Frontend-first, fuss-stack by nature.',
   url: 'https://sridhar-nallasamy.vercel.app/',
   ogTitle: 'Sridhar Nallasamy',
   ogSubTitle: 'Senior Software Engineer',
