@@ -20,7 +20,7 @@ import type {
 const META_INFO = {
   title: 'Sridhar Nallasamy 😊',
   description:
-    'Senior Software Engineer — Building production-grade systems from pixel to pipeline. Frontend-first, fuss-stack by nature.',
+    'Senior Software Engineer — Building production-grade systems from pixel to pipeline. Frontend-first, full-stack by nature.',
   url: 'https://sridhar-nallasamy.vercel.app/',
   ogTitle: 'Sridhar Nallasamy',
   ogSubTitle: 'Senior Software Engineer',
@@ -88,14 +88,16 @@ const WORKS: TimelineProps[] = [
 const BUILDS: BuildProps[] = [
   {
     title: 'BienesMart 📦',
-    description: 'B2C customised products selling app',
+    description:
+      'From design to doorstep — a customised merchandise storefront powered by React, Firebase and Stripe.',
     image: BienesmartOgImg,
     link: 'https://bienes-mart.web.app',
     keywords: ['React', 'Firebase', 'Stripe'],
   },
   {
     title: 'Printinkz Dashboard',
-    description: 'B2B business clients management app',
+    description:
+      'Order it, brand it, ship it — a B2B dashboard for print-on-demand fulfilment. Built as a Next.js monorepo on GCP with MongoDB. WIP.',
     image:
       'https://storage.googleapis.com/multimedia.printinkz.com/brand/OpenGraphLogo.png',
     link: 'https://dashboard.printinkz.com',
@@ -103,7 +105,8 @@ const BUILDS: BuildProps[] = [
   },
   {
     title: 'FE Machine Coding 🚀',
-    description: 'A frontend machine coding round optimal solutions',
+    description:
+      "Curated frontend machine coding solutions — the kind you'd want to write under a 45-minute clock.",
     image: 'https://sridhar-nallasamy.github.io/fe-machine-coding/og-img.png',
     link: 'https://sridhar-nallasamy.github.io/fe-machine-coding/',
     keywords: ['TS', 'Algorithm', 'Interview Prep'],
@@ -124,7 +127,7 @@ const SKILLS: SkillsProps = {
       },
       {
         icon: '🧩',
-        name: 'Design Sysytem',
+        name: 'Design System',
         meta: 'Components ・ Tokens ・ A11y',
       },
     ],
@@ -155,7 +158,7 @@ const SKILLS: SkillsProps = {
       'TypeScript',
       'Redux',
       'Jotai',
-      'Tanstack Query',
+      'TanStack Query',
       'ShadCN',
       'Tailwind CSS',
       'Micro Frontend',

@@ -25,7 +25,7 @@ const BuildsList: BuildsListFc = ({ className }) => {
               'h-fit cursor-pointer overflow-hidden',
               'rounded-2xl border-3 border-[#69696915] bg-[#69696915]',
               'transition-transform hover:scale-105',
-              'w-70 lg:w-72 2xl:w-80',
+              'w-70 lg:w-72 2xl:w-84',
             )}
           >
             <NextImg
