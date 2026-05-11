@@ -93,8 +93,6 @@ $ focus
 
 ---
 
-<br/>
-
 <p align='center'>
   <img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&label=visitors&color=3178c6" />
 </p>
