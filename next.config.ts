@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
       new URL('https://storage.googleapis.com/multimedia.printinkz.com/**'),
     ],
   },
-  allowedDevOrigins: ['192.168.0.3', '192.168.0.215'],
+  allowedDevOrigins: ['192.168.0.3', '192.168.0.215', '192.168.29.33'],
 };
 
 export default nextConfig;
