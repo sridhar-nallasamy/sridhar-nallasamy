@@ -1,42 +1,47 @@
 import type { FC, ReactElement } from 'react';
 
-import type {
-  BuildsListType,
-  ContactIconProps,
-  PageLinkProps,
-  TechListType,
-  TimelineProps,
-} from '.';
+import type { ContactProps, TechListType, TimelineProps } from '.';
 
-export type BuildsBoxFc = FC<{ buildsList: BuildsListType[] }>;
+type ClassName = { className?: string };
 
-export type ContactBoxFc = FC<ContactIconProps>;
+export type BlockTitleFc = FC<{ title: string } & ClassName>;
 
-export type CustomTooltipFc = FC<{
-  title: string;
-  children: ReactElement;
-}>;
+export type BuildsListFc = FC<ClassName>;
 
-export type DesktopNavFc = FC<{ navList: PageLinkProps[] }>;
+export type ClockFc = FC<ClassName>;
 
-export type PageLinksBoxFc = FC<{ pageLinks: PageLinkProps[] }>;
+export type ContactBoxFc = FC<ContactProps>;
 
-export type DotBoxFC = FC<{
-  hw: number;
-  dotsCount: number;
-  className: string;
-}>;
+export type CustomTooltipFc = FC<{ title: string; children: ReactElement }>;
 
-export type SpaceBoxFc = FC<{
-  children: React.ReactNode;
-  className?: string;
-  id?: string;
-}>;
+export type ExperiencesFc = FC<
+  { title: string; list: TimelineProps[]; id?: string } & ClassName
+>;
 
-export type TechBoxFc = FC<{ children: ReactElement }>;
+export type HomeNudgeFc = FC<ClassName>;
+
+export type NavbarFc = FC<ClassName>;
+
+export type ParentFc<T = object> = FC<
+  { children?: React.ReactNode; id?: string } & ClassName & T
+>;
+
+export type SkillsFc = FC<ClassName>;
+
+export type SpaceBoxFc = ParentFc;
 
 export type StackBoxFc = FC<{ name: string; techList: TechListType[] }>;
 
+export type TechBoxFc = FC<{ children: ReactElement }>;
+
+export type TerminalFc = FC<ClassName>;
+
+export type TerminalLineCmdFc = FC<{ cmd: string }>;
+
+export type TerminalLineOpFc = FC<{ op: string } & ClassName>;
+
 export type TimelineFc = FC<TimelineProps>;
+
+export type TypewriterFc = ParentFc<{ list: string[] }>;
 
 export type VisualBoxFc = FC<{ passionList: TechListType[] }>;

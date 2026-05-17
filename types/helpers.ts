@@ -1,7 +1,3 @@
-import type { PageLinkProps } from '.';
+import type { ClassValue } from 'clsx';
 
-export type getPageLinksFn = (_currentPage: string) => PageLinkProps[];
-
-export type pageFilterFn = (_nextLink: PageLinkProps) => boolean;
-
-export type getBoxShadowFn = (_num: number) => string;
+export type cnFn = (..._classNames: ClassValue[]) => string;

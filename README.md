@@ -1,109 +1,98 @@
-<div align="right">
-  <img src="/assets/png/VGS.png" width="11%" alt="Logo" />
+<div align='center'>
+  <img src='/assets/png/VGS.png' width='80' alt='Logo' />
 </div>
 
-## Hi there <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" height="30px" width="30px" alt="Waving GIF">, &nbsp;<img src="https://readme-typing-svg.herokuapp.com?font=Comic+Sans+MS&color=%2302DF00&size=18&vCenter=true&width=280&height=26&lines=Myself+Sridhar+😊;I'm+a+Software+Engineer+👨🏻‍💻" alt="Scrolling Text" />
+```terminal
+$ whoami
+> Sridhar Nallasamy
 
-<h5 align="center">☺️ I'm Happy to Welcome You to My GitHub Profile‼️</h5>
+$ role
+> Senior Software Engineer
 
-### 🙋🏻‍♂️ About Me
+$ focus
+> Scalable frontend ・ Design Systems ・ Components architecture
+```
 
-<div>
-  <img src="https://img.shields.io/badge/🎂 D.O.B-18--Jun--1998-success" alt="D.O.B" />
-  <img src="https://img.shields.io/badge/🎓 B.Tech-Information Technology-blueviolet" alt="Degree" />
-  <img src="https://img.shields.io/badge/🏡 Home Town-Tiruppur-blue" alt="Home Town" />
-  <img src="https://img.shields.io/badge/🏢 Living In-Bangalore-orange" alt="Living In" />
-</div>
-<br />
+<div align='center'>
 
-- 🔭 I like to explore new technologies and develop software solutions and quick hacks.
-- 🦾 I always sought out opportunities and challenges that are meaningful to me.
-- 🌱 Besides development, I'm engrossed in visual effects & computer graphics too.
-- 👯 I'll love to collaborate & work on full stack developments.
-- 😅 Endlessly 🕰 I can do - enjoying Music's 🎧, drive with Friends 💖, gaming 🎮⚽🏏, watching Sci-Fi movies/series 🎥.
+[![Portfolio](https://img.shields.io/badge/Portfolio-85EA2D?logo=google-chrome&logoColor=darkgreen)](https://sridhar-nallasamy.vercel.app/)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/sridhar-nallasamy/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:nsridharbtech@gmail.com)
 
-<hr />
-
-<img src="/assets/png/Techie.png" width="45%" align="right" />
-
-### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" alt="" height="22px" width="22px" /> &nbsp; Tech Stack & Tools
-
-<br />
-
-<div>
-  <img src="https://img.shields.io/badge/Java-1D2951?style=flat&logo=java" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring-1D2951?style=flat&logo=spring" alt="Spring" />
-  <img src="https://img.shields.io/badge/JavaScript-1D2951?style=flat&logo=javascript" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Typescript-1D2951?style=flat&logo=typescript" alt="Typescript" />
-  <img src="https://img.shields.io/badge/React-1D2951?style=flat&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/Redux-1D2951?style=flat&logo=redux" alt="Redux" />
-  <img src="https://img.shields.io/badge/Next.js-1D2951?style=flat&logo=next.js" alt="Next.JS" />
-  <img src="https://img.shields.io/badge/Node.js-1D2951?style=flat&logo=node.js" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-1D2951?style=flat&logo=express" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Python-1D2951?style=flat&logo=python" alt="Python" />
-  <img src="https://img.shields.io/badge/HTML-1D2951?style=flat&logo=html5" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS-1D2951?style=flat&logo=css3" alt="CSS" />
-  <img src="https://img.shields.io/badge/Tailwind CSS-1D2951?style=flat&logo=tailwind-css" alt="Tailwind CSS" />
-</div>
-<div>
-  <img src="https://img.shields.io/badge/Git-072F5F?style=flat&logo=git" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-072F5F?style=flat&logo=github" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Docker-072F5F?style=flat&logo=docker" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-072F5F?style=flat&logo=kubernetes" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Firebase-072F5F?style=flat&logo=firebase" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Google Cloud-072F5F?style=flat&logo=google-cloud" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/AWS-072F5F?style=flat&logo=amazonwebservices&logoColor=ff9900" alt="AWS" />
-  <img src="https://img.shields.io/badge/Vercel-072F5F?style=flat&logo=vercel" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Stripe-072F5F?style=flat&logo=stripe" alt="Stripe" />
-</div>
-<div>
-  <img src="https://img.shields.io/badge/Adobe XD-1D2951?style=flat&logo=adobe-xd" alt="Adobe XD" />
-  <img src="https://img.shields.io/badge/Photoshop-1D2951?style=flat&logo=adobe-photoshop" alt="Photoshop" />
-  <img src="https://img.shields.io/badge/Illustrator-1D2951?style=flat&logo=adobe-illustrator" alt="Illustrator" />
-  <img src="https://img.shields.io/badge/After Effects-1D2951?style=flat&logo=adobe-after-effects" alt="After Effects" />
-  <img src="https://img.shields.io/badge/Premiere Pro-1D2951?style=flat&logo=adobe-premiere-pro" alt="Premiere Pro" />
-</div>
-<hr />
-
-### ➡️ GitHub Analytics
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sridhar-nallasamy&theme=radical&layout=compact&langs_count=6" alt="Most Used Languages Stats" height="175rem" />
-  <img src="https://github-readme-stats.vercel.app/api?username=sridhar-nallasamy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&custom_title=Sridhar%27s%20GitHub%20Stats" alt="Commit Stats" height="175rem" />
-</div>
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sridhar-nallasamy&theme=chartreuse-dark" alt="Streaks Stats" align="center" height="175rem" />
-</div>
-<br />
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sridhar-nallasamy&custom_title=Sridhar%27s%20Contribution%20Graph&theme=github-compact" alt="Contribution Graph" width="85%" />
 </div>
 
-<hr />
+---
 
-### ✮ Holopin Badges
+### `> 📑 /about`
 
-[![An image of @sridharnallasamy's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sridharnallasamy)](https://holopin.io/@sridharnallasamy)
+- I build **production-grade frontend** and design systems that scale.
+- I care about developer experience, performance and clean component API's.
+- Outside code: visual effects and computer graphics.
 
-<hr/>
+---
 
-### <img src="/assets/gif/handshake.gif" alt="handshake" width="10%" /> Connect with Me
+### `> 🧰 /stack`
 
-<br />
-<div>
-  <a href="https://sridhar-nallasamy.vercel.app"><img src="https://img.shields.io/badge/sridhar--nallasamy.vercel.app-013220?style=flat&logo=Google-Chrome&logoColor=white" alt="website"></a>
-  <a href="https://www.linkedin.com/in/sridhar-nallasamy-781564160/"><img src="https://img.shields.io/badge/Sridhar Nallasamy-0077B5?style=flat&logo=Linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:nsridharbtech@gmail.com"><img src="https://img.shields.io/badge/nsridharbtech@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://www.instagram.com/sridhar.n3/"><img src="https://img.shields.io/badge/sridhar.n3-DD2A7B?style=flat&logo=Instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://www.snapchat.com/add/n.sridhar3/"><img src="https://img.shields.io/badge/n.sridhar3-FEFC00?style=flat&logo=SnapChat&logoColor=black" alt="SnapChat"></a>
-  <a href="https://www.facebook.com/sri.luzifer"><img src="https://img.shields.io/badge/sri.luzifer-1778F2?style=flat&logo=Facebook&logoColor=white" alt="Facebook"></a>
-</div>
-<hr />
-<img src="/assets/gif/Earth.gif" height="20px" width="20px" alt="world gif" align="right" />
-<img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&color=green" alt="view count" align="right" />
-<h6>Last Edited: 16-Jul-2024</h6>
+#### What I Architect
+
+[![React](https://img.shields.io/badge/React-0d0d0f?logo=react&logoColor=%2361DAFB)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-0d0d0f?logo=next.js&logoColor=e4e4e7)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-0d0d0f?logo=typescript&logoColor=3178c6)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0f?logo=javascript&logoColor=f7df1e)](#)
+
+#### What I Build
+
+[![Node.js](https://img.shields.io/badge/Node.js-0d0d0f?logo=node.js&logoColor=6da55f)](#)
+[![Java](https://img.shields.io/badge/Java-0d0d0f?logo=openjdk&logoColor=%23ed8b00)](#)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0d0d0f?logo=springboot&logoColor=6db33f)](#)
+[![Python](https://img.shields.io/badge/Python-0d0d0f?logo=python&logoColor=3776ab)](#)
+
+#### What I Ship On
+
+[![Docker](https://img.shields.io/badge/Docker-0d0d0f?logo=docker&logoColor=2496ed)](#)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-0d0d0f?logo=kubernetes&logoColor=326ce5)](#)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0d0d0f.svg?logo=google-cloud&logoColor=%234285f4)](#)
+[![AWS](https://custom-icon-badges.demolab.com/badge/AWS-0d0d0f.svg?logo=aws&logoColor=%23ff9900)](#)
+[![Vercel](https://img.shields.io/badge/Vercel-0d0d0f.svg?logo=vercel&logoColor=e4e4e7)](#)
+[![Firebase](https://img.shields.io/badge/Firebase-0d0d0f?logo=Firebase&logoColor=red)](#)
+
+#### What I Also Pull
+
+[![Redux](https://img.shields.io/badge/Redux-0d0d0f?logo=redux&logoColor=764abc)](#)
+[![Jotai](https://custom-icon-badges.demolab.com/badge/Jotai-0d0d0f?logo=ghostty_term&logoColor=e4e4e7)](#)
+[![Zustand](https://img.shields.io/badge/Zustand-0d0d0f?logo=debian&logoColor=brown)](#)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0d0d0f.svg?logo=tailwind-css&logoColor=%2338b2ac)](#)
+[![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-0d0d0f?logo=shadcnui&logoColor=fff)](#)
+[![MUI](https://img.shields.io/badge/MUI-0d0d0f?logo=mui&logoColor=007fff)](#)
+[![Git](https://img.shields.io/badge/Git-0d0d0f?logo=git&logoColor=f05032)](#)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d0d0f?logo=github-actions&logoColor=2088ff)](#)
+[![Stripe](https://img.shields.io/badge/Stripe-0d0d0f?logo=stripe&logoColor=5851dd)](#)
+[![Express.js](https://img.shields.io/badge/Express.js-0d0d0f.svg?logo=express&logoColor=%2361DAFB)](#)
+[![GraphQL](https://img.shields.io/badge/GraphQL-0d0d0f?logo=graphql&logoColor=e10098)](#)
+[![Prisma](https://img.shields.io/badge/Prisma-0d0d0f?logo=prisma&logoColor=lightGray)](#)
+[![Postgres](https://img.shields.io/badge/Postgres-0d0d0f.svg?logo=postgresql&logoColor=%23316192)](#)
+[![MongoDB](https://img.shields.io/badge/MongoDB-0d0d0f.svg?logo=mongodb&logoColor=%234ea94b)](#)
+
+---
+
+### `> 📈 /stats`
+
+<p align='center'>
+  <img src="https://streak-stats.demolab.com/?user=sridhar-nallasamy&theme=chartreuse-dark" alt="Streaks Stats" align="center" height="175" />
+</p>
+
+<p align='center'>
+  <img src="https://github-profile-trophy.vercel.app/?username=sridhar-nallasamy&theme=radical&row=1" />
+</p>
+
+### `> 📊 /activity`
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sridhar-nallasamy&custom_title=Sridhar%27s%20Contribution%20Graph&theme=github-compact&area=true&point=f05032" alt="Contribution Graph" width="90%" />
+</p>
+
+---
+
+<p align='center'>
+  <img src="https://komarev.com/ghpvc/?username=sridhar-nallasamy&label=visitors&color=3178c6" />
+</p>
