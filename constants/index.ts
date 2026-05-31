@@ -185,7 +185,7 @@ const CONTACTS: ContactProps[] = [
   {
     icon: LinkedinIcon,
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/sridhar-nallasamy/',
+    href: 'https://www.linkedin.com/in/sridhar-nallasamy',
     note: 'Professional updates & connections',
   },
   {
@@ -203,7 +203,7 @@ const CONTACTS: ContactProps[] = [
   {
     icon: InstaIcon,
     title: 'Instagram',
-    href: 'https://www.instagram.com/sridhar.n3/',
+    href: 'https://www.instagram.com/sridhar.n3',
     note: 'Life outside the terminal',
   },
 ];
